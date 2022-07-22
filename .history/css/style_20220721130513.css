@@ -1,0 +1,30 @@
+*{
+    box-sizing: content-box;
+}
+
+.input-group{
+    width: 216px;
+    height: 29px;
+    position: relative;
+    margin-left: 250px;
+    margin-right: 170px;
+}
+
+.input-group>.form-floating:not(:first-child)>.form-control, .input-group>.form-floating:not(:first-child)>.form-select, .input-group>:not(:first-child):not(.dropdown-menu):not(.form-floating):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){
+    border-top-left-radius: 0.375rem; 
+    border-bottom-left-radius:0.375rem;
+}
+.input-group ::placeholder{
+    padding-left: 89px;
+
+}
+
+.input-group svg {
+    position:absolute;
+    display:inline-block;
+    width: 9px;
+    height:9px;
+    left:80px;
+    top:15px;
+    z-index: 1;
+  }
