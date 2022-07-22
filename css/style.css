@@ -54,6 +54,10 @@ hr {
   justify-content: center;
 }
 
+.profile{
+  margin-top: 29px;
+}
+
 .profile-img {
   margin-right: 92px;
 }
