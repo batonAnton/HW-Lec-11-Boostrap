@@ -40,7 +40,7 @@
 }
 
 hr {
-  margin: 0px;
+  margin-top: 12px;
 }
 
 .navbar-nav li {
@@ -144,32 +144,29 @@ hr {
 .posts-btn{
     color: #262626;
     border: none;
-    padding: 20px;
+    margin-top: -16px;
     border-radius: 0px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    align-items: center;
-    letter-spacing: 0.09em;
-    margin-left: 5px;
-    text-transform: uppercase;
-    cursor: pointer;
 }
-.posts-btn:hover{
+.posts-btn:active{
     color: #262626;
     border: none;
     border-top: 1px solid #000;
     border-radius: 0px;
 }
 
-.posts-link svg{
-    margin-right: 5px;
+
+.posts-h1 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  letter-spacing: 0.09em;
+  margin-left: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
-
-
-
 
 .posts-photo {
   justify-content: center;

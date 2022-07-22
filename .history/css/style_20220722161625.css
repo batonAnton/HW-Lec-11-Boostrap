@@ -40,7 +40,7 @@
 }
 
 hr {
-  margin: 0px;
+  margin-top: 12px;
 }
 
 .navbar-nav li {
@@ -144,7 +144,8 @@ hr {
 .posts-btn{
     color: #262626;
     border: none;
-    padding: 20px;
+    padding: 25px;
+    /* padding-top: 25px; */
     border-radius: 0px;
     font-family: "Helvetica Neue";
     font-style: normal;
@@ -157,10 +158,11 @@ hr {
     text-transform: uppercase;
     cursor: pointer;
 }
-.posts-btn:hover{
+.posts-btn:active{
     color: #262626;
     border: none;
     border-top: 1px solid #000;
+    /* padding-top: 25px; */
     border-radius: 0px;
 }
 
